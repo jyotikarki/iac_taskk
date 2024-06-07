@@ -1,0 +1,12 @@
+- name: sample_data
+  format: CSV
+  schema:
+    - name: id
+      type: INTEGER
+      mode: REQUIRED
+    - name: name
+      type: STRING
+      mode: REQUIRED
+    - name: age
+      type: INTEGER
+      mode: REQUIRED
